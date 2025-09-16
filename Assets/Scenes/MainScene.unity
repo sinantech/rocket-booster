@@ -323,7 +323,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0.065122865, y: 0.009979186, z: -0.004861605, w: -0.99781555}
-  m_LocalPosition: {x: -10.232859, y: 4.2568784, z: -14.419784}
+  m_LocalPosition: {x: -10.232858, y: 4.135878, z: -14.869784}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -550,7 +550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 407402016445334390, guid: 77b9772ed4de7544aa96730258cc5618, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.65
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 407402016445334390, guid: 77b9772ed4de7544aa96730258cc5618, type: 3}
       propertyPath: m_LocalRotation.w
@@ -708,7 +708,7 @@ Transform:
   m_GameObject: {fileID: 1420671445}
   serializedVersion: 2
   m_LocalRotation: {x: -0.065122865, y: 0.009979186, z: -0.004861605, w: -0.99781555}
-  m_LocalPosition: {x: -10.232859, y: 4.2568784, z: -14.419784}
+  m_LocalPosition: {x: -10.232858, y: 4.135878, z: -14.869784}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -763,11 +763,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 289141142915562979, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.306
+      value: 2.185
       objectReference: {fileID: 0}
     - target: {fileID: 289141142915562979, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 289141142915562979, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
       propertyPath: m_LocalRotation.w
@@ -805,6 +805,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Rocket
       objectReference: {fileID: 0}
+    - target: {fileID: 4721882133341819582, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
+      propertyPath: m_Constraints
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 4721882133341819582, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
+      propertyPath: m_LinearDamping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4721882133341819582, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
+      propertyPath: m_AngularDamping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8019837018084699586, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
+      propertyPath: m_Size.y
+      value: 1.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8019837018084699586, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
       propertyPath: m_Center.x
       value: 0.13
@@ -818,6 +834,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
+--- !u!1001 &6438071317051713097
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7154482391061594882, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.0442495
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154482391061594882, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154482391061594882, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154482391061594882, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154482391061594882, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154482391061594882, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154482391061594882, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154482391061594882, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154482391061594882, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154482391061594882, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7494556546072041912, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
+      propertyPath: m_Name
+      value: Dropship_01_Tank_Red
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25ced2d0d72fdeb42b5e21ff59325600, type: 3}
 --- !u!1001 &6645783129809364766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -836,7 +909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 407402016445334390, guid: 77b9772ed4de7544aa96730258cc5618, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.65
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 407402016445334390, guid: 77b9772ed4de7544aa96730258cc5618, type: 3}
       propertyPath: m_LocalRotation.w
@@ -870,6 +943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Launch Pad
       objectReference: {fileID: 0}
+    - target: {fileID: 7090385707661642377, guid: 77b9772ed4de7544aa96730258cc5618, type: 3}
+      propertyPath: m_Size.y
+      value: 1.37
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -887,3 +964,4 @@ SceneRoots:
   - {fileID: 6645783129809364766}
   - {fileID: 712695364}
   - {fileID: 3949803670959104436}
+  - {fileID: 6438071317051713097}
