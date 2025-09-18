@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class Movement : MonoBehaviour
 {
+    //Parameters - for tuning,set in the editor
+    //Cache - references 
+    //State - private instances variables
     [SerializeField] InputAction thrust;
     [SerializeField] InputAction rotation;
     [SerializeField] float thrustStrength = 100f;
