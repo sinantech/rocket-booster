@@ -752,8 +752,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3524976402729094017, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 3949803670959104438}
   m_SourcePrefab: {fileID: 100100000, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
+--- !u!1 &3949803670959104437 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3524976402729094017, guid: 0a4244be5f3b41343a40ba005577f918, type: 3}
+  m_PrefabInstance: {fileID: 3949803670959104436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3949803670959104438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3949803670959104437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ac1d09556a94b4da787ce119db3dbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuitApplication
 --- !u!1001 &4048396737461594027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -764,15 +784,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 786026029442227867, guid: 7d4e9a68346d56e47917eb59284c327e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -225.59563
+      value: -225.71973
       objectReference: {fileID: 0}
     - target: {fileID: 786026029442227867, guid: 7d4e9a68346d56e47917eb59284c327e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.243094
+      value: 8.242052
       objectReference: {fileID: 0}
     - target: {fileID: 786026029442227867, guid: 7d4e9a68346d56e47917eb59284c327e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.794012
+      value: -24.796562
       objectReference: {fileID: 0}
     - target: {fileID: 786026029442227867, guid: 7d4e9a68346d56e47917eb59284c327e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1035,15 +1055,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2959884379629412936, guid: ca811a93cf9a0c34aadde159d3481ee0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -225.59563
+      value: -225.71973
       objectReference: {fileID: 0}
     - target: {fileID: 2959884379629412936, guid: ca811a93cf9a0c34aadde159d3481ee0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.243094
+      value: 8.242052
       objectReference: {fileID: 0}
     - target: {fileID: 2959884379629412936, guid: ca811a93cf9a0c34aadde159d3481ee0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.794012
+      value: -24.796562
       objectReference: {fileID: 0}
     - target: {fileID: 2959884379629412936, guid: ca811a93cf9a0c34aadde159d3481ee0, type: 3}
       propertyPath: m_LocalRotation.w
